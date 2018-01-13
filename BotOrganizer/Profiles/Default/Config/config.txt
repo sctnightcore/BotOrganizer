@@ -323,8 +323,7 @@ shopTitleOversize 0
 
 sleepTime 10000
 
-#gelen tum mesajlari engeller
-ignoreAll 1			
+ignoreAll 0			
 itemHistory 0
 autoTalkCont 1
 noAutoSkill 0
@@ -744,5 +743,5 @@ logToFile_Warnings
 history_max 50
 
 
-import: /config2.txt
+import: /customconfig.txt
 
