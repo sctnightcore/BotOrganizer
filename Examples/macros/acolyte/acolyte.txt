@@ -1,0 +1,75 @@
+useSelf_skill Heal {
+	lvl 10
+	hp < 75%
+	sp > 10%
+}
+
+
+
+
+useSelf_skill Blessing {
+	lvl 10
+	whenStatusInactive Blessing
+	sp > 90%
+	timeout 5
+}
+
+
+
+
+useSelf_skill Increase AGI {
+	lvl 10
+	whenStatusInactive Increase AGI
+	sp > 55%
+	timeout 5
+}
+
+
+
+
+useSelf_skill Kyrie Eleison {
+	lvl 10
+	sp > 45
+	stopWhenHit 1
+	notWhileSitting 1
+	notInTown 1
+	timeout 5
+	whenStatusInactive Kyrie Eleison
+}
+
+
+
+
+useSelf_skill Magnificat {
+	lvl 5
+	sp > 45
+	stopWhenHit 1
+	notWhileSitting 1
+	notInTown 1
+	timeout 5
+	whenStatusInactive Magnificat 
+}
+
+
+
+
+useSelf_skill Gloria {
+	lvl 10
+	sp > 25
+	whenStatusInactive Gloria
+	timeout 28
+}
+
+
+
+
+useSelf_skill Assumptio {
+	lvl 10
+	sp > 20%
+	stopWhenHit 1
+	notWhileSitting 1
+	notInTown 1
+	timeout 5
+	disabled 1
+	whenStatusInactive Assumtio
+}

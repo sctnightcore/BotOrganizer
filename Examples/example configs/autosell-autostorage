@@ -1,0 +1,44 @@
+# ragnarok online openkore bot 2.0.3 macro
+# creted by Ddr4ig
+# ver 1,0
+# add inside config the bottom line
+
+
+
+sellAuto 1
+sellAuto_npc geffen_in 77 167 #geffen
+#sellAuto_npc payon 159 96 #payon
+#sellAuto_npc prt_in 126 76 #prontera
+#sellAuto_npc cmd_in01 79 182 #comodo
+#sellAuto_npc ra_in01 257 269  #rachel
+#sellAuto_npc yuno_in01 25 34 #juno
+sellAuto_npc_steps
+sellAuto_standpoint
+sellAuto_distance 5
+
+storageAuto 1
+storageAuto_npc geffen 120 62      #geffen
+#storageAuto_npc payon 181 104      #Payon
+#storageAuto_npc prt_in 126 76   #prontera
+#storageAuto_npc cmd_in01 79 182 #comodo
+#storageAuto_npc rachel 109 138  #rachel
+#storageAuto_npc yuno 152 187  #juno
+storageAuto_distance 5
+storageAuto_npc_type 3
+storageAuto_npc_steps c r1 c r0 n
+storageAuto_password
+storageAuto_keepOpen 0
+storageAuto_useChatCommand
+relogAfterStorage 1
+minStorageZeny 60
+
+npcTimeResponse
+
+getAuto {
+	minAmount
+	maxAmount
+	passive
+}
+
+
+

@@ -1,0 +1,118 @@
+#################           Config.txt               ####################
+
+lockMap prontera
+lockMap_x 172
+lockMap_y 188
+lockMap_randX
+lockMap_randY
+
+
+
+shopAuto_open 1
+shop_random 0
+shop_useSkill 1
+
+
+
+
+
+
+
+
+
+#################           Shop.txt               ####################
+# This file controls which items to put into your shop, when you are
+# vending. To enable vending, set the 'shopAuto' configuration option in
+# config.txt to 1.
+#
+# The first line of the file is your shop title.
+# Subsequent lines are of this format (tab-delimited):
+# <name>	<price>[..<max price>]	[<amount>]
+#
+# Attention: Report the max price is optional. If not informed, the item
+# will be always sold at the same price of field "price". If informed,
+# the item will be sold between "price" and "max price".
+#
+# If <price> has commas in it, they must appear in the right places.
+# This can be useful for preventing accidentally vending an item
+# for the wrong price.
+#
+# Random shop name:
+# My Shop;;My cool shop;;My nice shop
+# 
+# Shop Name:
+Tom's Shop
+#
+Oridecon											59,000					200
+Elunium												30,000					200
+Orleans's Gown [1]									10,000,000				1
+#RWC Rally Box										65,000,000				1
+#RWC Rally Box										69,000,000				1
+Infiltrator											2,000,000				1
+Archer Skeleton Card								9,000,000				5
+Soldier Skeleton Card								350,000					10
+Pecopeco Hairband									20,000,000				1
+Promethean Crown									16,000,000				1
++7 Erde [2]											15,000,000				1
+Bloodied Shackle Ball								10,000,000				1
+Myst Case Card										5,000,000				1
+Hode Card											100,000					5
+Purple Glasses										50,000					1
++4Valkyrian Shoes [Raggler][1]						5,000,000				1
+Knuckle Dusters [3]									100,000					1
+Black Cat Ears										3,000,000				1
+4+ Nemesis											2,000,000				1
+Swordfish Card										3,000,000				1
+Goat Card											250,000					1
++5 VVS Two-Handed Axe [Fire]						3,000,000				1
+Raggler Card										5,000,000				1
+Yellow Gemstone										5,000					111
+Light Granule										15,000					80
+Panda Hat											5,000,000				1
+Costume: Castle Bat									35,000,000				1
+Emperium											500,000					1
+Shackles											100,000					1
+Black Cat Ears										3,000,000				1
++4 St Patrick's Hat [Holden] [1]					6,000,000				1
+Drosera Card										500,000					1
+Orcish Axe											500,000					1
+Armor Charm											100,000					1
+Horseshoe											2,000					1000
+Costume: Baphomet Hat							                 	5,000,000				1
+Green Petite Egg									        500,000					1
+Silk Ribbon											500,000					1
+Armor Charm											100,000					1
+Novice Battle Axe [Soldier Skeleton*3] [3]			                                500,000					1
+Flower Band											500,000					1
+Hair Band											500,000					1
++6 Lich's Bone Wand [2]							                 	1,000,000				1
+Cookie Card											5,000,000				2
+Cruiser Card										        5,000,000				2
+St Patrick's Hat [1]								6,000,000				1
++4 Orleans's Server [Orc Warrior] [1]				                2,000,000				1
+WoE Plate [Sandman] [1]								5,000,000				1
+Exorcism Bible										1,500,000				1
+Alligator Card										500,000					1
+Round Buckler										500,000					1
+Shoes [1]											100,000					1
+Super Novice Hat [1]								100,000					1
+Christmas Cookie Card								2,000,000				1
++4 Bakonawa Scale Armor								5,000,000				1
++4 Kalasag											5,000,000				1
+Jakk Card											2,000,000				5
+Sharpened Legbone of Ghoul							1,000,000				1
+Zombie Card											50,000					20
+Clip [Beholder][1]									3,000,000				1
+Ghoul Card											50,000					20
+Mantis Card											100,000					20
+Sharpened Legbone of Ghoul							1,000,000				1
+Stapo Card											500,000					3
+Hill Wind Card										500,000					3
+Sidewinder Card										500,000					3
+Elder Card											500,000					3
+Condor Card											500,000					3
+Muscipular Card										500,000					3
+Clip [Beholder][1]									2,000,000				3
+Variant Shoes										3,500,000				1
+Earth Petite Card									500,000					1
+Costume: Marvelous Wig								45,000,000				1

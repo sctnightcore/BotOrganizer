@@ -1,0 +1,49 @@
+# ragnarok online openkore bot 2.0.3 macro
+# creted by Ddr4ig
+# ver 1,0
+# add inside config the bottom line
+
+
+#Free For All
+
+buyAuto Butterfly Wing {
+	minAmount 2
+	maxAmount 10
+	npc geffen_in 77 167 #geffen
+	#npc yuno_in01 25 34 #juno
+	#npc ra_in01 257 269 #rachel
+	#npc cmd_in01 79 182 #comodo
+	#npc payon 159 96      #Payon
+	#npc prt_in 126 76      #prontera
+	distance 5
+}
+
+
+
+buyAuto Awakening Potion {
+	minAmount 2
+	maxAmount 20
+	npc geffen_in 77 167 #geffen
+	#npc yuno_in01 25 34 #juno
+	#npc ra_in01 257 269 #rachel
+	#npc cmd_in01 79 182 #comodo
+	#npc payon 159 96      #Payon
+	#npc prt_in 126 76      #prontera
+	distance 5
+}
+
+
+
+
+#Only Alchemist for Homunculus item buying
+
+buyAuto Big Cell {
+	minAmount 2
+	maxAmount 300
+npc geffen 193 152      #geffen
+#npc yuno_in01 25 34 	#juno			need change
+#npc ra_in01 257 269 	#rachel			need change
+#npc cmd_in01 79 182 	#comodo			need change
+#npc prt_in 126 76      #prontera		need change
+	distance 5
+}

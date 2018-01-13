@@ -1,0 +1,58 @@
+# ragnarok online openkore bot 2.0.3 macro
+# creted by Ddr4ig
+# ver 1,0
+# bounty board 80 - 120 ground petite quest no vip
+
+
+automacro groundpetite {
+hook packet/quest_update_mission_hunt
+#hook target_died
+   exclusive 1
+   call {
+      if (@config(gpetiteQuest) != 1 || $.lvl > 80) goto next
+	:next
+      $temp1 = @eval($::questList->{62681}->{missions}->{1155}->{count})
+      if ($temp1 == 150) call gpetite  
+   }
+}
+macro gpetite {
+   set exclusive 1
+   do respawn
+   pause 4
+   do move geffen 69 72
+   pause 4
+   do talk @npc (74 79)
+   pause 4
+   do talk resp 1
+   pause 4
+   do talk resp 0
+   pause 4
+   do talk resp 6
+   pause 2
+   call gettingQuest
+   stop
+}
+macro gettingQuest {
+   set exclusive 1
+   do move geffen 69 72
+   pause 4
+   do talk @npc (74 79)
+   pause 4
+   do talk resp 0
+   pause 4
+   do talk resp 6
+   pause 4
+   do talk resp 0
+   pause 2
+}
+
+
+macro q {
+   do quest list
+}
+
+
+
+
+
+
