@@ -744,7 +744,5 @@ logToFile_Warnings
 history_max 50
 
 
-macro_orphans terminate
-
-
+import: /config2.txt
 
