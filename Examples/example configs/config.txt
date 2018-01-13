@@ -1,7 +1,6 @@
 
-//macro added this
-
+#macro added this
 macro_orphans terminate
 
-//Gelen tum mesajlari engeller
+#Gelen tum mesajlari engeller
 ignoreAll 1
