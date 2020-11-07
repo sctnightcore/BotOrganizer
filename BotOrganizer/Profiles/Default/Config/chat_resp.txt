@@ -16,5 +16,3 @@
 # Kore will reply with "no", "I'm not a bot" or "huh?".
 
 bot,botter	no,I'm not a bot,huh?
-help        sorry
-
